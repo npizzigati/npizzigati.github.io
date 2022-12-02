@@ -33,3 +33,9 @@ body {
 
 .viewer {
 }
+
+@media (max-width: 500px) {
+    .link-button {
+        font-size: 2.5em;
+    }
+}
