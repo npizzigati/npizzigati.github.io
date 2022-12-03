@@ -53,3 +53,19 @@ body {
         font-size: 1em;
     }
 }
+
+@media print {
+    .resume {
+        width: 100%;
+        box-shadow: none;
+        margin: 0;
+    }
+
+    .top-bar {
+        display: none;
+    }
+
+    .spacer {
+        display: none;
+    }
+}
