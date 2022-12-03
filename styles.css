@@ -35,6 +35,7 @@ body {
 .resume {
     display: block;
     margin: 3em auto 0;
+    width: 80%;
     box-shadow: 0 1px 10px 1px #999;
 }
 
