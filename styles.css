@@ -24,11 +24,11 @@ body {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     color: #323b5b;
+    text-decoration: underline;
 }
 
 .link-button:hover {
-    color: #323b5b;
-    text-decoration: underline;
+    color: #4d5b8c;
 }
 
 .resume {
@@ -43,12 +43,6 @@ body {
 }
 
 @media (min-width: 0px) {
-    .link-button {
-        font-size: 2em;
-    }
-}
-
-@media (min-width: 800px) {
     .link-button {
         font-size: 1.5em;
     }
