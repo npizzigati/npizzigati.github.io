@@ -6,7 +6,9 @@ body {
 }
 
 .top-bar {
-    position: relative;
+    position: fixed;
+    width: 100%;
+    top: 0;
     background: #d3d8d9;
     box-shadow: 0 1px 10px 1px #999;
     padding: 0.4em 0;
@@ -14,30 +16,46 @@ body {
 
 .link-button {
     display: block;
-    width: 11em;
-    background: #9baac3;
+    width: 20em;
     margin: 0 auto;
     border-radius: 1em;
     text-align: center;
     padding: 0.1em 0;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    font-size: 0.8em;
     color: #323b5b;
 }
 
 .link-button:hover {
-    background: #a8b9d3;
+    color: #323b5b;
+    text-decoration: underline;
 }
 
 .resume {
     display: block;
-    margin: 0 auto;
+    margin: 3em auto 0;
+    width: 80%;
     box-shadow: 0 1px 10px 1px #999;
 }
 
-@media (max-width: 500px) {
+.spacer {
+    height: 1em;
+}
+
+@media (min-width: 0px) {
     .link-button {
         font-size: 2em;
+    }
+}
+
+@media (min-width: 800px) {
+    .link-button {
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 1100px) {
+    .link-button {
+        font-size: 1em;
     }
 }
